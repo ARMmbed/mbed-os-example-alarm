@@ -1,8 +1,8 @@
-# Alarm example using Mbed OS
+# Alarm example using Arm Mbed OS
 
 This guide reviews the steps required to build and run a basic alarm application on an Mbed OS platform.
 
-Please install [mbed CLI](https://github.com/ARMmbed/mbed-cli#installing-mbed-cli).
+Please install [Arm Mbed CLI](https://github.com/ARMmbed/mbed-cli#installing-mbed-cli).
 
 ## Import the example application
 
@@ -48,8 +48,8 @@ Image: ./BUILD/K64F/IAR/mbed-os-example-alarm.bin
 
 ### Program your board
 
-1. Connect your mbed device to the computer over USB.
-1. Copy the binary file to the mbed device.
+1. Connect your Mbed device to the computer over USB.
+1. Copy the binary file to the Mbed device.
 1. Press the reset button to start the program.
 
 Press Button1 for the number of desired hours to delay. Press Button2 to cycle to minutes and repeat the previous step for number of desired minutes. Press Button2 again to start the alarm. Press Button2 again once the alarm triggers to silence it. Both an LED and a digital out pin will go high on the alarm trigger, and go back low on an alarm reset.
